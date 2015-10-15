@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ScopeTes2
+{
+    class ScopeTest2
+    {
+        static int j = 20;
+        //j que existe em todos os metodos
+        static void Main(string[] args)
+        {
+            int j = 30;
+            //passa a valer o novo j;
+            Console.WriteLine(j);
+            Console.ReadLine();
+            return;
+        }
+    }
+}
