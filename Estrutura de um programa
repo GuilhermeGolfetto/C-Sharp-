@@ -1,0 +1,11 @@
+using System; //quais os pacotes que nós vamos ultilizar
+
+namespace Aula003 //agrupador de instruções
+{
+    class Program //modelo de um objeto
+    {
+        static void Main(string[] args) // Metodo Inicial, primeiro a ser executado
+        {
+        }
+    }
+}
